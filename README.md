@@ -12,7 +12,7 @@ Cloud Computing & Network Administration graduate from George Brown Polytechnic 
 
 ## Enterprise IT Ecosystem
 
-This portfolio tells the story of a complete enterprise IT environment — four projects covering every layer of what an IT department actually does.
+This portfolio tells the story of a complete enterprise IT environment — six projects covering every layer of what an IT department actually does.
 
 ```
 Network Foundation          →    User Lifecycle           →    Identity & Security         →    M365 Operations
@@ -25,7 +25,7 @@ Port Scanning                    Offboarding                    Conditional Acce
 Wi-Fi Analysis                   Asset Tracking                 Intune · Defender                SharePoint
 SSL/TLS Checks                   Power Automate                 BYOD Governance                  Purview DLP
 Rogue Device Detection           SharePoint                     Zero Trust                       Daily Administration
-ARP Auditing                     Zero Manual Steps              23 PowerShell Scripts            27 Managed Users
+ARP Auditing                     Zero Manual Steps              30+ PowerShell Scripts            27 Managed Users
 ```
 
 ---
