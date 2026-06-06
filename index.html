@@ -116,6 +116,10 @@
   .cert-status { font-size: 10px; font-family: var(--mono); padding: 2px 8px; border-radius: 3px; margin-top: 4px; display: inline-block; }
   .cert-done { background: rgba(16,185,129,0.15); color: var(--green); border: 1px solid rgba(16,185,129,0.3); }
   .cert-progress { background: rgba(245,158,11,0.15); color: var(--amber); border: 1px solid rgba(245,158,11,0.3); }
+  .evidence-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .evidence-card { background: var(--navy-2); border: 1px solid rgba(255,255,255,0.07); border-radius: 12px; padding: 1.25rem; }
+  .evidence-card h3 { font-size: 13px; color: var(--white-2); margin-bottom: 8px; }
+  .evidence-card p { font-size: 12px; color: var(--white-4); line-height: 1.6; }
 
   /* FOOTER */
   footer { background: var(--navy-2); border-top: 1px solid rgba(255,255,255,0.06); padding: 3rem 2rem; text-align: center; }
@@ -154,6 +158,7 @@
   <span class="nav-name">rahat.islam.anik</span>
   <div class="nav-links">
     <a href="#ecosystem">Ecosystem</a>
+    <a href="#evidence">Evidence</a>
     <a href="#projects">Projects</a>
     <a href="#skills">Skills</a>
     <a href="#certifications">Certifications</a>
@@ -168,7 +173,7 @@
       <div class="hero-label">// IT Portfolio · Toronto, ON</div>
       <h1 class="hero-name">Md Rahat<br>Islam Anik</h1>
       <p class="hero-title">
-        <strong>IT Systems Administrator</strong> and Cloud Computing graduate from George Brown Polytechnic (GPA 3.55) with <strong>6+ years</strong> owning complete IT environments across multi-site operations.
+        <strong>IT Systems Administrator</strong> focused on Microsoft 365, Entra ID, Intune, Windows Server, PowerShell automation, and cloud support evidence.
       </p>
       <div class="hero-tags">
         <span class="tag">M365</span>
@@ -196,9 +201,9 @@
         <div class="stat-sub">Multi-site IT ops</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num">1146</div>
+        <div class="stat-num">1196</div>
         <div class="stat-label">Unique Cloners</div>
-        <div class="stat-sub">GitHub · 14 days</div>
+        <div class="stat-sub">Snapshot · Jun 6, 2026</div>
       </div>
       <div class="stat-card">
         <div class="stat-num">11</div>
@@ -206,9 +211,9 @@
         <div class="stat-sub">+ 2 in progress</div>
       </div>
       <div class="stat-card accent">
-        <div class="stat-num blue">10+</div>
+        <div class="stat-num blue">12+</div>
         <div class="stat-label">Live Projects</div>
-        <div class="stat-sub">GitHub Pages</div>
+        <div class="stat-sub">Portfolio repos</div>
       </div>
       </div>
     </div>
@@ -250,8 +255,34 @@
     </div>
   </div>
   <p style="font-size:13px; color:var(--white-4); text-align:center; font-family:var(--mono);">
-    Network works → Users get onboarded → Identities get secured → M365 gets administered
+    Network works → Users get onboarded → Identities get secured → Microsoft 365 gets administered
   </p>
+</section>
+
+<div class="divider"></div>
+
+<!-- RECRUITER EVIDENCE -->
+<section id="evidence">
+  <div class="section-label">// Recruiter Evidence</div>
+  <h2 class="section-title">What This Portfolio Proves</h2>
+  <div class="evidence-grid">
+    <div class="evidence-card">
+      <h3>Microsoft 365 Administration</h3>
+      <p>Tenant configuration, Exchange Online, Teams, SharePoint, Purview DLP, Defender review, and daily administration evidence.</p>
+    </div>
+    <div class="evidence-card">
+      <h3>Identity & Access</h3>
+      <p>Entra ID, Conditional Access, MFA, SAML SSO, AD DS, group policy, and identity operations tooling.</p>
+    </div>
+    <div class="evidence-card">
+      <h3>Endpoint & Security</h3>
+      <p>Intune, endpoint compliance, Defender operations, BYOD governance, secure access patterns, and documented limitations.</p>
+    </div>
+    <div class="evidence-card">
+      <h3>Automation & Troubleshooting</h3>
+      <p>PowerShell diagnostics, HTML reporting, M365 workflow automation, support process design, and repeatable evidence maps.</p>
+    </div>
+  </div>
 </section>
 
 <div class="divider"></div>
@@ -264,17 +295,37 @@
 
     <div class="project-card flagship">
       <div class="project-header">
-        <div class="project-name">Enterprise IT Security Operations Toolkit</div>
-        <span class="project-badge badge-flagship">Flagship</span>
+        <div class="project-name">Meridian Institute — Microsoft 365 Lab</div>
+        <span class="project-badge badge-flagship">M365</span>
       </div>
       <div class="project-stats">
-        <div class="pstat"><span>631</span> clones</div>
-        <div class="pstat"><span>251</span> cloners</div>
-        <div class="pstat"><span>8</span> phases</div>
+        <div class="pstat"><span>6</span> phases</div>
+        <div class="pstat"><span>158</span> screenshots</div>
+        <div class="pstat"><span>27</span> users</div>
       </div>
-      <p class="project-desc">Multi-phase M365 security operations platform — 30+ PowerShell scripts across 8 operational phases — identity governance, endpoint security, Defender operations, BYOD governance, Exchange mail flow auditing, and web-only access enforcement. Secure Score: 146.26 / 204.</p>
+      <p class="project-desc">Microsoft 365 administration lab covering identity governance, Defender review, endpoint compliance, Conditional Access, onboarding workflow, Purview, Exchange, Teams, and SharePoint evidence.</p>
       <div class="project-tags">
-        <span class="ptag">Entra ID</span><span class="ptag">Intune</span><span class="ptag">Defender</span><span class="ptag">Conditional Access</span><span class="ptag">PowerShell</span><span class="ptag">Zero Trust</span>
+        <span class="ptag">Microsoft 365</span><span class="ptag">Intune</span><span class="ptag">Purview</span><span class="ptag">Conditional Access</span>
+      </div>
+      <div class="project-links">
+        <a href="https://rahatislamanik-spec.github.io/Meridian-Institute-M365-Lab/phase-1/" target="_blank" rel="noopener noreferrer" class="project-link">→ Live Site</a>
+        <a href="https://github.com/rahatislamanik-spec/Meridian-Institute-M365-Lab" target="_blank" rel="noopener noreferrer" class="project-link">→ GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card flagship">
+      <div class="project-header">
+        <div class="project-name">Enterprise IT Security Operations Toolkit</div>
+        <span class="project-badge badge-security">Security</span>
+      </div>
+      <div class="project-stats">
+        <div class="pstat"><span>8</span> phases</div>
+        <div class="pstat"><span>30+</span> scripts</div>
+        <div class="pstat"><span>M365</span> security</div>
+      </div>
+      <p class="project-desc">Security operations portfolio covering Entra ID, Intune, Defender, Conditional Access, BYOD governance, Exchange auditing, PowerShell automation, and evidence-based operating procedures.</p>
+      <div class="project-tags">
+        <span class="ptag">Entra ID</span><span class="ptag">Intune</span><span class="ptag">Defender</span><span class="ptag">PowerShell</span><span class="ptag">Zero Trust</span>
       </div>
       <div class="project-links">
         <a href="https://rahatislamanik-spec.github.io/Enterprise-IT-Security-Operations-Toolkit/" target="_blank" rel="noopener noreferrer" class="project-link">→ Live Site</a>
@@ -284,75 +335,35 @@
 
     <div class="project-card">
       <div class="project-header">
-        <div class="project-name">Enterprise IT Network Diagnostics Toolkit</div>
-        <span class="project-badge badge-top">#1 Cloned</span>
+        <div class="project-name">Windows Server 2022 Enterprise Domain</div>
+        <span class="project-badge badge-top">Systems</span>
       </div>
       <div class="project-stats">
-        <div class="pstat"><span>424</span> clones</div>
-        <div class="pstat"><span>205</span> cloners</div>
-        <div class="pstat"><span>9</span> scripts</div>
+        <div class="pstat"><span>AD DS</span></div>
+        <div class="pstat"><span>DNS</span></div>
+        <div class="pstat"><span>GPO</span></div>
       </div>
-      <p class="project-desc">9-script PowerShell network diagnostics platform — DNS, connectivity, port scanning, Wi-Fi, SSL/TLS, latency baseline, rogue device detection, and ARP auditing. All scripts generate professional HTML reports. 27 real diagnostic files from a live network.</p>
+      <p class="project-desc">Windows Server and Active Directory case study showing domain services, DNS, Group Policy, OU structure, administrative documentation, screenshots, and recruiter-readable evidence.</p>
       <div class="project-tags">
-        <span class="ptag">PowerShell</span><span class="ptag">DNS</span><span class="ptag">Network Diagnostics</span><span class="ptag">HTML Reports</span>
+        <span class="ptag">Windows Server</span><span class="ptag">Active Directory</span><span class="ptag">DNS</span><span class="ptag">Group Policy</span>
       </div>
       <div class="project-links">
-        <a href="https://rahatislamanik-spec.github.io/Enterprise-IT-Network-Diagnostics-Toolkit/" target="_blank" rel="noopener noreferrer" class="project-link">→ Live Site</a>
-        <a href="https://github.com/rahatislamanik-spec/Enterprise-IT-Network-Diagnostics-Toolkit" target="_blank" rel="noopener noreferrer" class="project-link">→ GitHub</a>
+        <a href="https://rahatislamanik-spec.github.io/Windows-Server-2022-Enterprise-Domain/" target="_blank" rel="noopener noreferrer" class="project-link">→ Live Site</a>
+        <a href="https://github.com/rahatislamanik-spec/Windows-Server-2022-Enterprise-Domain" target="_blank" rel="noopener noreferrer" class="project-link">→ GitHub</a>
       </div>
     </div>
 
     <div class="project-card">
       <div class="project-header">
-        <div class="project-name">Meridian Institute — M365 Security Lab</div>
+        <div class="project-name">TechSolutions — Microsoft 365 Deployment</div>
         <span class="project-badge badge-security">M365</span>
       </div>
       <div class="project-stats">
-        <div class="pstat"><span>158</span> clones</div>
-        <div class="pstat"><span>85</span> cloners</div>
-        <div class="pstat"><span>6</span> phases</div>
-      </div>
-      <p class="project-desc">Six-phase Microsoft 365 enterprise simulation in a real developer tenant — identity governance, Defender XDR audit, user onboarding automation, endpoint compliance, Conditional Access (9 policies), and zero-touch deployment architecture across 27 managed users and 4 admin centers.</p>
-      <div class="project-tags">
-        <span class="ptag">M365</span><span class="ptag">Intune</span><span class="ptag">Purview DLP</span><span class="ptag">Conditional Access</span>
-      </div>
-      <div class="project-links">
-        <a href="https://rahatislamanik-spec.github.io/Meridian-Institute-M365-Lab/phase-1/" target="_blank" rel="noopener noreferrer" class="project-link">→ Live Site</a>
-        <a href="https://github.com/rahatislamanik-spec/Meridian-Institute-M365-Lab" target="_blank" rel="noopener noreferrer" class="project-link">→ GitHub</a>
-      </div>
-    </div>
-
-    <div class="project-card">
-      <div class="project-header">
-        <div class="project-name">Project Arabesque — NBS IT Automation</div>
-        <span class="project-badge badge-top">Automation</span>
-      </div>
-      <div class="project-stats">
-        <div class="pstat"><span>55</span> clones</div>
-        <div class="pstat"><span>37</span> cloners</div>
-        <div class="pstat"><span>0</span> manual steps</div>
-      </div>
-      <p class="project-desc">End-to-end IT onboarding and offboarding automation for Canada's National Ballet School — entirely on Microsoft 365. Three SharePoint systems, two automated cloud flows, four email automations. Zero manual steps.</p>
-      <div class="project-tags">
-        <span class="ptag">Power Automate</span><span class="ptag">SharePoint</span><span class="ptag">M365</span><span class="ptag">Automation</span>
-      </div>
-      <div class="project-links">
-        <a href="https://rahatislamanik-spec.github.io/Project-Arabesque/" target="_blank" rel="noopener noreferrer" class="project-link">→ Live Site</a>
-        <a href="https://github.com/rahatislamanik-spec/Project-Arabesque" target="_blank" rel="noopener noreferrer" class="project-link">→ GitHub</a>
-      </div>
-    </div>
-
-    <div class="project-card">
-      <div class="project-header">
-        <div class="project-name">TechSolutions Inc. — Microsoft 365 Enterprise Deployment</div>
-        <span class="project-badge badge-m365">M365</span>
-      </div>
-      <div class="project-stats">
-        <div class="pstat"><span>35</span> clones</div>
-        <div class="pstat"><span>30</span> cloners</div>
         <div class="pstat"><span>4</span> phases</div>
+        <div class="pstat"><span>40</span> screenshots</div>
+        <div class="pstat"><span>DLP</span></div>
       </div>
-      <p class="project-desc">300 employees. One administrator. A blank Microsoft 365 tenant. Complete M365 deployment — identity, Defender, DLP, Insider Risk, SharePoint governance, Viva Engage, and Power Automate automation across 4 phases. Every policy had a reason.</p>
+      <p class="project-desc">Microsoft 365 tenant deployment case study covering identity, Defender, DLP, Insider Risk, SharePoint governance, Viva Engage, and Power Automate workflow evidence.</p>
       <div class="project-tags">
         <span class="ptag">Microsoft 365</span><span class="ptag">Entra ID</span><span class="ptag">Defender</span><span class="ptag">DLP</span><span class="ptag">Power Automate</span>
       </div>
@@ -364,16 +375,79 @@
 
     <div class="project-card">
       <div class="project-header">
-        <div class="project-name">Café Nimbus — AWS Cloud Infrastructure</div>
-        <span class="project-badge badge-cloud">AWS</span>
+        <div class="project-name">AD Identity Operations Toolkit</div>
+        <span class="project-badge badge-top">Identity</span>
       </div>
-      <p class="project-desc">Five-phase AWS engagement — S3, EC2/LAMP, custom VPC, ALB + Auto Scaling (Multi-AZ), Lambda + EventBridge across 13 services. From one broken server to a self-operating cloud. Zero manual steps at end state.</p>
+      <div class="project-stats">
+        <div class="pstat"><span>AD</span> ops</div>
+        <div class="pstat"><span>IAM</span></div>
+        <div class="pstat"><span>PowerShell</span></div>
+      </div>
+      <p class="project-desc">Production-style Active Directory identity operations toolkit with honest evidence boundaries, safe operating notes, limitations, and future validation plan.</p>
       <div class="project-tags">
-        <span class="ptag">AWS</span><span class="ptag">EC2</span><span class="ptag">Lambda</span><span class="ptag">ALB</span><span class="ptag">Auto Scaling</span>
+        <span class="ptag">Active Directory</span><span class="ptag">IAM</span><span class="ptag">PowerShell</span><span class="ptag">Operations</span>
       </div>
       <div class="project-links">
-        <a href="https://rahatislamanik-spec.github.io/Cafe-Nimbus/" target="_blank" rel="noopener noreferrer" class="project-link">→ Live Site</a>
-        <a href="https://github.com/rahatislamanik-spec/Cafe-Nimbus" target="_blank" rel="noopener noreferrer" class="project-link">→ GitHub</a>
+        <a href="https://github.com/rahatislamanik-spec/AD-Identity-Operations-Toolkit" target="_blank" rel="noopener noreferrer" class="project-link">→ GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <div class="project-name">Enterprise IT Network Diagnostics Toolkit</div>
+        <span class="project-badge badge-top">PowerShell</span>
+      </div>
+      <div class="project-stats">
+        <div class="pstat"><span>9</span> scripts</div>
+        <div class="pstat"><span>HTML</span> reports</div>
+        <div class="pstat"><span>DNS</span></div>
+      </div>
+      <p class="project-desc">PowerShell troubleshooting toolkit for DNS, connectivity, port scanning, Wi-Fi, SSL/TLS, latency baselines, rogue device detection, and ARP auditing with report output.</p>
+      <div class="project-tags">
+        <span class="ptag">PowerShell</span><span class="ptag">DNS</span><span class="ptag">Network Diagnostics</span><span class="ptag">HTML Reports</span>
+      </div>
+      <div class="project-links">
+        <a href="https://rahatislamanik-spec.github.io/Enterprise-IT-Network-Diagnostics-Toolkit/" target="_blank" rel="noopener noreferrer" class="project-link">→ Live Site</a>
+        <a href="https://github.com/rahatislamanik-spec/Enterprise-IT-Network-Diagnostics-Toolkit" target="_blank" rel="noopener noreferrer" class="project-link">→ GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <div class="project-name">Project Arabesque — M365 Workflow Automation</div>
+        <span class="project-badge badge-top">Workflow</span>
+      </div>
+      <div class="project-stats">
+        <div class="pstat"><span>3</span> lists</div>
+        <div class="pstat"><span>2</span> flows</div>
+        <div class="pstat"><span>8</span> screenshots</div>
+      </div>
+      <p class="project-desc">Self-directed Microsoft 365 case study for student onboarding and offboarding workflows using SharePoint, Forms, Power Automate, Outlook notifications, and documented evidence boundaries.</p>
+      <div class="project-tags">
+        <span class="ptag">Power Automate</span><span class="ptag">SharePoint</span><span class="ptag">Microsoft 365</span><span class="ptag">Workflow</span>
+      </div>
+      <div class="project-links">
+        <a href="https://rahatislamanik-spec.github.io/Project-Arabesque/" target="_blank" rel="noopener noreferrer" class="project-link">→ Live Site</a>
+        <a href="https://github.com/rahatislamanik-spec/Project-Arabesque" target="_blank" rel="noopener noreferrer" class="project-link">→ GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <div class="project-name">EntraID AWS SAML SSO Integration</div>
+        <span class="project-badge badge-cloud">SSO</span>
+      </div>
+      <div class="project-stats">
+        <div class="pstat"><span>SAML</span></div>
+        <div class="pstat"><span>Entra</span></div>
+        <div class="pstat"><span>AWS</span></div>
+      </div>
+      <p class="project-desc">Identity federation case study connecting Entra ID concepts with AWS access patterns, SAML terminology, role mapping, and cloud identity administration.</p>
+      <div class="project-tags">
+        <span class="ptag">Entra ID</span><span class="ptag">SAML</span><span class="ptag">AWS IAM</span><span class="ptag">Identity Federation</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/rahatislamanik-spec/EntraID-AWS-SAML-SSO-Integration" target="_blank" rel="noopener noreferrer" class="project-link">→ GitHub</a>
       </div>
     </div>
 
@@ -448,7 +522,7 @@
     <div class="cert-card">
       <div class="cert-icon">🤖</div>
       <div>
-        <div class="cert-name">8× Anthropic AI Certified</div>
+        <div class="cert-name">Anthropic AI Courses</div>
         <div class="cert-issuer">Claude API · MCP · Bedrock · Agents</div>
         <span class="cert-status cert-done">✔ Completed</span>
       </div>
@@ -488,4 +562,3 @@
 
 </body>
 </html>
-
