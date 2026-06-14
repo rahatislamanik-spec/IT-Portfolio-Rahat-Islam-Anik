@@ -1,5 +1,5 @@
 # IT Portfolio — Md Rahat Islam Anik
-> **Status:** Active Development
+> **Status:** Portfolio Complete — v1.0
 
 > IT Systems Administrator · M365 & Identity · Zero Trust · Cloud · Toronto, ON
 
@@ -18,17 +18,27 @@ Professional background: Cloud Computing & Network Administration graduate from 
 This portfolio tells the story of a production-style IT environment across identity, endpoints, Microsoft 365 operations, Windows Server administration, automation, and network diagnostics.
 
 ```
-Network Foundation          →    User Lifecycle           →    Identity & Security         →    M365 Operations
-─────────────────────────────────────────────────────────────────────────────────────────────────────────────
-Enterprise IT Network            Project Arabesque              Enterprise IT Security           Meridian Institute
-Diagnostics Toolkit              M365 Workflow Automation       Operations Toolkit               M365 Security Lab
+Network Foundation     →   User Lifecycle      →   Identity & Security    →   M365 Operations       →   Cloud Infrastructure
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Enterprise IT Network       Project Arabesque        Enterprise IT Security     Meridian Institute        TechNova Azure Infra
+Diagnostics Toolkit          M365 Workflow Auto.       Operations Toolkit         M365 Security Lab         Azure Cloud Automation
+                                                       AD Identity Ops Toolkit                               NorthBridge Passwordless
+DNS · Connectivity            Onboarding               Entra ID · Conditional     Exchange · Teams           Hub-Spoke VNets
+Port Scanning                 Offboarding              Access · Intune            SharePoint · Purview       Bastion · Key Vault
+Wi-Fi Analysis                 Asset Tracking            Defender · BYOD            27 Managed Users           ARM Templates
+SSL/TLS Checks                Power Automate            Zero Trust                                            Load Balancer · RBAC
+Rogue Device Detection         SharePoint                30+ PowerShell Scripts
+ARP Auditing                  Workflow Evidence          OSFI E-21 · CIS · NIST
 
-DNS · Connectivity               Onboarding                     Entra ID                         Exchange Online
-Port Scanning                    Offboarding                    Conditional Access               Teams
-Wi-Fi Analysis                   Asset Tracking                 Intune · Defender                SharePoint
-SSL/TLS Checks                   Power Automate                 BYOD Governance                  Purview DLP
-Rogue Device Detection           SharePoint                     Zero Trust                       Daily Administration
-ARP Auditing                     Workflow Evidence              30+ PowerShell Scripts            27 Managed Users
+
+On-Prem Networking                    AWS Serverless                    Identity Federation
+─────────────────────────────────────────────────────────────────────────────────────────────
+Aurelian Enterprise Network                Cafe-Nimbus                       EntraID AWS SAML SSO
+Windows Server 2022 Enterprise Domain       AWS Infrastructure Case Study     Azure Event-Driven Order System
+
+Cisco IOS · VLANs · ACLs                    Lambda · S3 · RDS                 SAML 2.0 · Trust Relationships
+DHCP Relay · Trunking                       ALB · Auto Scaling · EventBridge   Cross-Platform Identity
+AD DS · DNS · GPO                          Serverless Order Processing        Federation Architecture
 ```
 
 ## Recruiter Evidence Map
