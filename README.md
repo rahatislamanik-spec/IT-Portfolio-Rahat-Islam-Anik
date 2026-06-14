@@ -48,9 +48,14 @@ AD DS · DNS · GPO                          Serverless Order Processing        
 | Microsoft 365 administration | Meridian Institute M365 Lab, TechSolutions Microsoft365 |
 | Entra ID and identity operations | Enterprise IT Security Operations Toolkit, AD Identity Operations Toolkit, EntraID AWS SAML SSO |
 | Endpoint / Intune administration | Meridian Institute M365 Lab, Enterprise IT Security Operations Toolkit |
-| Windows Server / AD administration | Windows Server 2022 Enterprise Domain, AD Identity Operations Toolkit |
+| Windows Server / AD administration | Windows Server 2022 Enterprise Domain, AD Identity Operations Toolkit, Aurelian Enterprise Network Case Study |
 | PowerShell and automation | Enterprise IT Network Diagnostics Toolkit, Enterprise IT Security Operations Toolkit |
 | Workflow and support operations | Project Arabesque, TechSolutions Microsoft365 |
+| Azure administration and infrastructure | TechNova Azure Infrastructure, Azure Cloud Infrastructure Automation |
+| Passwordless / Zero Trust modernization | NorthBridge Passwordless Modernization, AD Identity Operations Toolkit |
+| Cloud architecture (AWS) | Cafe-Nimbus AWS Infrastructure Case Study |
+| Network engineering (Cisco) | Aurelian Enterprise Network Case Study |
+| Identity federation (SAML / cross-platform) | EntraID AWS SAML SSO Integration, Azure Event-Driven Order Processing System |
 
 ---
 
