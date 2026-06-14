@@ -1,5 +1,6 @@
 # IT Portfolio — Md Rahat Islam Anik
 > **Status:** Portfolio Complete — v1.0
+> **Last Updated:** June 2026
 
 > IT Systems Administrator · M365 & Identity · Zero Trust · Cloud · Toronto, ON
 
