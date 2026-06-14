@@ -23,23 +23,24 @@ Network Foundation     →   User Lifecycle      →   Identity & Security    �
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 Enterprise IT Network       Project Arabesque        Enterprise IT Security     Meridian Institute        TechNova Azure Infra
 Diagnostics Toolkit          M365 Workflow Auto.       Operations Toolkit         M365 Security Lab         Azure Cloud Automation
-                                                       AD Identity Ops Toolkit                               NorthBridge Passwordless
+                                                       AD Identity Ops Toolkit
+                                                       NorthBridge Passwordless
 DNS · Connectivity            Onboarding               Entra ID · Conditional     Exchange · Teams           Hub-Spoke VNets
 Port Scanning                 Offboarding              Access · Intune            SharePoint · Purview       Bastion · Key Vault
-Wi-Fi Analysis                 Asset Tracking            Defender · BYOD            27 Managed Users           ARM Templates
-SSL/TLS Checks                Power Automate            Zero Trust                                            Load Balancer · RBAC
+Wi-Fi Analysis                 Asset Tracking            Defender · BYOD · FIDO2     27 Managed Users           ARM Templates
+SSL/TLS Checks                Power Automate            Zero Trust · Passwordless                              Load Balancer · RBAC
 Rogue Device Detection         SharePoint                30+ PowerShell Scripts
 ARP Auditing                  Workflow Evidence          OSFI E-21 · CIS · NIST
 
 
-On-Prem Networking                    AWS Serverless                    Identity Federation
-─────────────────────────────────────────────────────────────────────────────────────────────
-Aurelian Enterprise Network                Cafe-Nimbus                       EntraID AWS SAML SSO
-Windows Server 2022 Enterprise Domain       AWS Infrastructure Case Study     Azure Event-Driven Order System
+On-Prem Networking                    AWS Serverless                    Azure Serverless                  Identity Federation
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Aurelian Enterprise Network                Cafe-Nimbus                       Azure Event-Driven                EntraID AWS SAML SSO
+Windows Server 2022 Enterprise Domain       AWS Infrastructure Case Study     Order Processing System            Cross-Platform Identity
 
-Cisco IOS · VLANs · ACLs                    Lambda · S3 · RDS                 SAML 2.0 · Trust Relationships
-DHCP Relay · Trunking                       ALB · Auto Scaling · EventBridge   Cross-Platform Identity
-AD DS · DNS · GPO                          Serverless Order Processing        Federation Architecture
+Cisco IOS · VLANs · ACLs                    Lambda · S3 · RDS                 Azure Functions · Service Bus      SAML 2.0 · Trust Relationships
+DHCP Relay · Trunking                       ALB · Auto Scaling · EventBridge   Event-Driven Architecture          Federation Architecture
+AD DS · DNS · GPO                          Serverless Order Processing        Storage Queues · Table Storage
 ```
 
 ## Recruiter Evidence Map
