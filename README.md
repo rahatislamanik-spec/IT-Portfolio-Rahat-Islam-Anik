@@ -57,7 +57,7 @@ AD DS · DNS · GPO                          Serverless Order Processing        
 | Passwordless / Zero Trust modernization | NorthBridge Passwordless Modernization, AD Identity Operations Toolkit |
 | Cloud architecture (AWS) | Cafe-Nimbus AWS Infrastructure Case Study |
 | Network engineering (Cisco) | Aurelian Enterprise Network Case Study |
-| Identity federation (SAML / cross-platform) | EntraID AWS SAML SSO Integration, Azure Event-Driven Order Processing System |
+| Identity federation (SAML / cross-platform) | EntraID AWS SAML SSO Integration |
 
 ---
 
