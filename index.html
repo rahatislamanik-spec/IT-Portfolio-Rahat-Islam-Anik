@@ -37,12 +37,12 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  /* NAV */
+  /* ── NAV ── */
   nav {
     position: sticky;
     top: 0;
     z-index: 100;
-    background: rgba(13,17,23,0.95);
+    background: rgba(13,17,23,0.92);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border-2);
     padding: 0 2rem;
@@ -86,8 +86,6 @@
     gap: 5px;
     cursor: pointer;
     padding: 4px;
-    background: none;
-    border: none;
   }
 
   .nav-hamburger span {
@@ -98,7 +96,7 @@
     transition: all 0.3s;
   }
 
-  /* LAYOUT */
+  /* ── LAYOUT ── */
   .container {
     max-width: 920px;
     margin: 0 auto;
@@ -112,7 +110,7 @@
 
   section:last-of-type { border-bottom: none; }
 
-  /* SECTION HEADER */
+  /* ── SECTION HEADER ── */
   .section-label {
     font-family: var(--mono);
     font-size: 0.7rem;
@@ -155,7 +153,7 @@
     50%       { opacity: 0; }
   }
 
-  /* HERO */
+  /* ── HERO ── */
   #hero {
     padding: 6rem 0 5rem;
     border-bottom: 1px solid var(--border-2);
@@ -190,7 +188,10 @@
     letter-spacing: 0.02em;
   }
 
-  .hero-title span { color: var(--cyan); opacity: 0.9; }
+  .hero-title span {
+    color: var(--cyan);
+    opacity: 0.9;
+  }
 
   .hero-meta {
     font-family: var(--mono);
@@ -241,10 +242,11 @@
 
   .btn-arrow::before { content: '→ '; }
 
-  /* STACK BAR */
+  /* ── STACK BAR ── */
   #stack {
     padding: 2.5rem 0;
     border-bottom: 1px solid var(--border-2);
+    overflow: hidden;
   }
 
   .stack-label {
@@ -280,12 +282,12 @@
     border-color: var(--cyan-dim);
   }
 
-  /* CERTS */
+  /* ── CERTS ── */
   .cert-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 0.75rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .cert-group-label {
@@ -294,7 +296,7 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--text-3);
-    margin: 1.75rem 0 0.75rem;
+    margin: 1.5rem 0 0.75rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--border-2);
   }
@@ -303,18 +305,10 @@
     background: var(--bg-2);
     border: 1px solid var(--border);
     padding: 0.9rem 1rem;
-    transition: border-color 0.2s, background 0.2s;
-    text-decoration: none;
-    display: block;
+    transition: border-color 0.2s;
   }
 
-  .cert-tile:hover {
-    border-color: var(--cyan-dim);
-    background: var(--bg-3);
-  }
-
-  .cert-tile.no-link { cursor: default; }
-  .cert-tile.no-link:hover { border-color: var(--border); background: var(--bg-2); }
+  .cert-tile:hover { border-color: var(--cyan-dim); }
 
   .cert-status {
     font-family: var(--mono);
@@ -342,16 +336,7 @@
     color: var(--text-3);
   }
 
-  .cert-verify {
-    font-family: var(--mono);
-    font-size: 0.62rem;
-    color: var(--cyan);
-    opacity: 0.6;
-    margin-top: 0.4rem;
-    letter-spacing: 0.04em;
-  }
-
-  /* EXPERIENCE */
+  /* ── EXPERIENCE ── */
   .exp-item {
     margin-bottom: 3rem;
     padding-bottom: 3rem;
@@ -439,7 +424,7 @@
     margin-top: 0.05rem;
   }
 
-  /* EDUCATION */
+  /* ── EDUCATION ── */
   .edu-item {
     display: flex;
     justify-content: space-between;
@@ -482,10 +467,10 @@
     letter-spacing: 0.04em;
   }
 
-  .edu-featured .edu-degree { font-size: 1rem; }
-  .edu-featured .edu-school { font-size: 0.88rem; }
+  .edu-featured .edu-degree { font-size: 1rem; color: var(--text-1); }
+  .edu-featured .edu-school { color: var(--cyan); font-size: 0.88rem; }
 
-  /* PROJECTS */
+  /* ── PROJECTS ── */
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -498,6 +483,7 @@
     background: var(--bg);
     padding: 1.75rem;
     transition: background 0.2s;
+    position: relative;
     display: flex;
     flex-direction: column;
   }
@@ -567,7 +553,7 @@
   .project-link:hover { color: var(--cyan); }
   .project-link::after { content: ' →'; }
 
-  /* CONTACT / FOOTER */
+  /* ── CONTACT / FOOTER ── */
   #contact {
     padding: 5rem 0 3rem;
     border-bottom: none;
@@ -577,7 +563,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
 
   .contact-label {
@@ -670,7 +656,7 @@
     50%       { opacity: 0.4; }
   }
 
-  /* SCROLL REVEAL */
+  /* ── SCROLL REVEAL ── */
   .reveal {
     opacity: 0;
     transform: translateY(16px);
@@ -682,10 +668,10 @@
     transform: translateY(0);
   }
 
-  /* MOBILE */
+  /* ── MOBILE ── */
   @media (max-width: 700px) {
     nav { padding: 0 1.25rem; }
-    .nav-links { display: none; flex-direction: column; position: absolute; top: 56px; left: 0; right: 0; background: var(--bg); border-bottom: 1px solid var(--border-2); padding: 1.5rem 1.25rem; gap: 1.25rem; z-index: 99; }
+    .nav-links { display: none; flex-direction: column; position: absolute; top: 56px; left: 0; right: 0; background: var(--bg); border-bottom: 1px solid var(--border-2); padding: 1.5rem 1.25rem; gap: 1.25rem; }
     .nav-links.open { display: flex; }
     .nav-hamburger { display: flex; }
     .container { padding: 0 1.25rem; }
@@ -723,9 +709,9 @@
     <li><a href="#education">Education</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <button class="nav-hamburger" id="hamburger" onclick="toggleNav()" aria-label="Toggle navigation">
+  <div class="nav-hamburger" id="hamburger" onclick="toggleNav()">
     <span></span><span></span><span></span>
-  </button>
+  </div>
 </nav>
 
 <!-- HERO -->
@@ -734,13 +720,13 @@
     <div class="hero-eyebrow">// Enterprise IT · Microsoft 365 · Cloud Security</div>
     <h1 class="hero-name">Md Rahat Islam Anik</h1>
     <div class="hero-title">
-      M365 &amp; Cloud Administrator &nbsp;·&nbsp;
+      M365 & Cloud Administrator &nbsp;·&nbsp;
       <span>Entra ID</span> &nbsp;·&nbsp;
       <span>Security Operations</span>
     </div>
     <div class="hero-meta">📍 Toronto, ON, Canada &nbsp;·&nbsp; Open to Remote · Canada-wide</div>
     <p class="hero-summary">
-      Enterprise IT professional with 6+ years managing Microsoft 365, Entra ID, and Active Directory environments across regulated industries — financial services, immigration compliance, and multi-site operations. Specialized in identity governance, endpoint security, and cloud infrastructure.
+      Enterprise IT professional with 6+ years managing Microsoft 365, Entra ID, and Active Directory environments across regulated industries — financial services, immigration compliance, and multi-site retail operations. Specialized in identity governance, endpoint security, and cloud infrastructure.
     </p>
     <div class="hero-links">
       <a class="btn btn-arrow" href="https://linkedin.com/in/rahatislamanik" target="_blank" rel="noopener">LinkedIn</a>
@@ -787,7 +773,7 @@
           <div class="exp-role">IT Administrator</div>
           <div class="exp-company">Port Food Mart</div>
         </div>
-        <div class="exp-meta">Tampa, FL&nbsp;·&nbsp;3.5 Years</div>
+        <div class="exp-meta">Tampa, FL<br>3.5 Years</div>
       </div>
       <div class="exp-metrics">
         <span class="metric-chip">6 Locations</span>
@@ -808,7 +794,7 @@
           <div class="exp-role">IT Administrator</div>
           <div class="exp-company">Eye Immigration</div>
         </div>
-        <div class="exp-meta">Surrey, BC&nbsp;·&nbsp;3 Locations</div>
+        <div class="exp-meta">Surrey, BC<br>3 Locations</div>
       </div>
       <div class="exp-metrics">
         <span class="metric-chip">3 Office Locations</span>
@@ -847,8 +833,8 @@
 
       <div class="project-tile reveal">
         <div class="project-num">02 / 06</div>
-        <div class="project-name">AD Identity Operations Toolkit<br><span style="color:var(--text-3);font-size:0.78rem;font-weight:400;">NorthBridge Financial Group</span></div>
-        <p class="project-desc">9-phase Active Directory and identity operations toolkit for a fictional financial institution. Mapped to OSFI E-21, CIS Controls v8, and NIST 800-53 — built to simulate real regulated-sector identity governance requirements.</p>
+        <div class="project-name">AD Identity Operations Toolkit<br><span style="color:var(--text-3);font-size:0.78rem;">NorthBridge Financial Group</span></div>
+        <p class="project-desc">10-phase Active Directory and identity operations toolkit for a fictional financial institution. Mapped to OSFI E-21, CIS Controls v8, and NIST 800-53 — built to simulate real regulated-sector identity governance requirements.</p>
         <div class="project-tags">
           <span class="tag">Active Directory</span>
           <span class="tag">PowerShell</span>
@@ -862,7 +848,7 @@
       <div class="project-tile reveal">
         <div class="project-num">03 / 06</div>
         <div class="project-name">Enterprise IT Security Operations Toolkit</div>
-        <p class="project-desc">8-phase security operations toolkit with 30+ PowerShell scripts covering Exchange Online hardening, Entra App Registration Audit, and M365 Incident Response Triage — built for enterprise-scale environments.</p>
+        <p class="project-desc">11-phase security operations toolkit with 30+ PowerShell scripts covering Exchange Online hardening, Entra App Registration Audit, and M365 Incident Response Triage — built for enterprise-scale environments.</p>
         <div class="project-tags">
           <span class="tag">PowerShell</span>
           <span class="tag">M365</span>
@@ -916,8 +902,9 @@
       </div>
 
     </div>
+
     <div style="margin-top:1.5rem;">
-      <a class="btn btn-arrow" href="https://github.com/rahatislamanik-spec" target="_blank" rel="noopener">View All Repositories</a>
+      <a class="btn btn-arrow" href="https://github.com/rahatislamanik-spec" target="_blank" rel="noopener" style="font-size:0.72rem;">View All Repositories</a>
     </div>
   </div>
 </section>
@@ -930,33 +917,31 @@
 
     <div class="cert-group-label">Microsoft</div>
     <div class="cert-grid">
-      <a class="cert-tile reveal" href="https://learn.microsoft.com/api/credentials/share/en-gb/MdRahatIslamAnik-7708/7F084CA206C24FF1?sharingId=A821DFE9D5E88191" target="_blank" rel="noopener">
+      <div class="cert-tile reveal">
         <div class="cert-status verified">✓ VERIFIED</div>
         <div class="cert-name">AZ-900</div>
         <div class="cert-issuer">Microsoft Azure Fundamentals</div>
-        <div class="cert-verify">↗ verify credential</div>
-      </a>
-      <a class="cert-tile reveal" href="https://learn.microsoft.com/api/credentials/share/en-gb/MdRahatIslamAnik-7708/11B19942E5041852?sharingId=A821DFE9D5E88191" target="_blank" rel="noopener">
+      </div>
+      <div class="cert-tile reveal">
         <div class="cert-status verified">✓ VERIFIED</div>
         <div class="cert-name">MS-900</div>
         <div class="cert-issuer">Microsoft 365 Fundamentals</div>
-        <div class="cert-verify">↗ verify credential</div>
-      </a>
-      <div class="cert-tile no-link reveal">
+      </div>
+      <div class="cert-tile reveal">
         <div class="cert-status progress">◎ IN PROGRESS</div>
         <div class="cert-name">AZ-104</div>
         <div class="cert-issuer">Microsoft Azure Administrator</div>
       </div>
-      <div class="cert-tile no-link reveal">
+      <div class="cert-tile reveal">
         <div class="cert-status progress">◎ IN PROGRESS</div>
         <div class="cert-name">SC-900</div>
-        <div class="cert-issuer">Security, Compliance &amp; Identity Fundamentals</div>
+        <div class="cert-issuer">Security, Compliance & Identity Fundamentals</div>
       </div>
     </div>
 
     <div class="cert-group-label">Networking</div>
     <div class="cert-grid" style="max-width:420px;">
-      <div class="cert-tile no-link reveal">
+      <div class="cert-tile reveal">
         <div class="cert-status verified">✓ VERIFIED</div>
         <div class="cert-name">Networking Essentials</div>
         <div class="cert-issuer">Cisco</div>
@@ -965,54 +950,46 @@
 
     <div class="cert-group-label">Anthropic AI — 8 Certifications</div>
     <div class="cert-grid">
-      <a class="cert-tile reveal" href="https://verify.skilljar.com/c/mf5p28uxjomd" target="_blank" rel="noopener">
+      <div class="cert-tile reveal">
         <div class="cert-status verified">✓ VERIFIED</div>
         <div class="cert-name">Claude 101</div>
         <div class="cert-issuer">Anthropic</div>
-        <div class="cert-verify">↗ verify credential</div>
-      </a>
-      <a class="cert-tile reveal" href="https://verify.skilljar.com/c/ggp3xwuqaddf" target="_blank" rel="noopener">
+      </div>
+      <div class="cert-tile reveal">
         <div class="cert-status verified">✓ VERIFIED</div>
-        <div class="cert-name">AI Fluency: Framework &amp; Foundations</div>
+        <div class="cert-name">AI Fluency</div>
         <div class="cert-issuer">Anthropic</div>
-        <div class="cert-verify">↗ verify credential</div>
-      </a>
-      <a class="cert-tile reveal" href="https://verify.skilljar.com/c/akuizkb3qfka" target="_blank" rel="noopener">
+      </div>
+      <div class="cert-tile reveal">
         <div class="cert-status verified">✓ VERIFIED</div>
-        <div class="cert-name">Claude with the Anthropic API</div>
+        <div class="cert-name">Building with Claude API</div>
         <div class="cert-issuer">Anthropic</div>
-        <div class="cert-verify">↗ verify credential</div>
-      </a>
-      <a class="cert-tile reveal" href="https://verify.skilljar.com/c/bh5eo6it88qj" target="_blank" rel="noopener">
+      </div>
+      <div class="cert-tile reveal">
         <div class="cert-status verified">✓ VERIFIED</div>
         <div class="cert-name">Claude with Amazon Bedrock</div>
         <div class="cert-issuer">Anthropic</div>
-        <div class="cert-verify">↗ verify credential</div>
-      </a>
-      <a class="cert-tile reveal" href="https://verify.skilljar.com/c/uwx4vr46giwc" target="_blank" rel="noopener">
+      </div>
+      <div class="cert-tile reveal">
         <div class="cert-status verified">✓ VERIFIED</div>
         <div class="cert-name">Claude Code in Action</div>
         <div class="cert-issuer">Anthropic</div>
-        <div class="cert-verify">↗ verify credential</div>
-      </a>
-      <a class="cert-tile reveal" href="https://verify.skilljar.com/c/ysibf8s5z7u5" target="_blank" rel="noopener">
+      </div>
+      <div class="cert-tile reveal">
         <div class="cert-status verified">✓ VERIFIED</div>
-        <div class="cert-name">Introduction to Model Context Protocol</div>
+        <div class="cert-name">Introduction to MCP</div>
         <div class="cert-issuer">Anthropic</div>
-        <div class="cert-verify">↗ verify credential</div>
-      </a>
-      <a class="cert-tile reveal" href="https://verify.skilljar.com/c/2au96bhndm4k" target="_blank" rel="noopener">
+      </div>
+      <div class="cert-tile reveal">
         <div class="cert-status verified">✓ VERIFIED</div>
         <div class="cert-name">Introduction to Subagents</div>
         <div class="cert-issuer">Anthropic</div>
-        <div class="cert-verify">↗ verify credential</div>
-      </a>
-      <a class="cert-tile reveal" href="https://verify.skilljar.com/c/sa5z6f6a2yb6" target="_blank" rel="noopener">
+      </div>
+      <div class="cert-tile reveal">
         <div class="cert-status verified">✓ VERIFIED</div>
         <div class="cert-name">Introduction to Agent Skills</div>
         <div class="cert-issuer">Anthropic</div>
-        <div class="cert-verify">↗ verify credential</div>
-      </a>
+      </div>
     </div>
   </div>
 </section>
@@ -1025,7 +1002,7 @@
 
     <div class="edu-item edu-featured reveal">
       <div>
-        <div class="edu-degree">Cloud Computing &amp; Network Administration</div>
+        <div class="edu-degree">Cloud Computing & Network Administration</div>
         <div class="edu-school">George Brown College (Polytechnic)</div>
         <div class="edu-detail">Postgraduate Diploma &nbsp;·&nbsp; GPA 3.55 / 4.0</div>
       </div>
@@ -1038,7 +1015,7 @@
         <div class="edu-school">Simon Fraser University (SFU)</div>
         <div class="edu-detail">Burnaby, BC</div>
       </div>
-      <div class="edu-meta">SFU<br>Burnaby, BC</div>
+      <div class="edu-meta">SFU</div>
     </div>
   </div>
 </section>
@@ -1084,21 +1061,26 @@
 </section>
 
 <script>
+  // Mobile nav toggle
   function toggleNav() {
     document.getElementById('navLinks').classList.toggle('open');
   }
 
+  // Close nav on link click (mobile)
   document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
       document.getElementById('navLinks').classList.remove('open');
     });
   });
 
+  // Scroll reveal
   const revealEls = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, i) => {
       if (entry.isIntersecting) {
-        setTimeout(() => entry.target.classList.add('visible'), i * 60);
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, i * 60);
         observer.unobserve(entry.target);
       }
     });
@@ -1106,16 +1088,18 @@
 
   revealEls.forEach(el => observer.observe(el));
 
+  // Active nav highlight on scroll
   const sections = document.querySelectorAll('section[id], div[id]');
   const navLinks = document.querySelectorAll('.nav-links a');
 
   window.addEventListener('scroll', () => {
     let current = '';
     sections.forEach(section => {
-      if (window.scrollY >= section.offsetTop - 80) current = section.getAttribute('id');
+      const top = section.offsetTop - 80;
+      if (window.scrollY >= top) current = section.getAttribute('id');
     });
     navLinks.forEach(link => {
-      link.style.color = link.getAttribute('href') === '#' + current ? 'var(--cyan)' : '';
+      link.style.color = link.getAttribute('href') === `#${current}` ? 'var(--cyan)' : '';
     });
   });
 </script>
