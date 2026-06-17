@@ -86,7 +86,7 @@ AD DS · DNS · GPO                          Serverless Order Processing        
 
 **Microsoft:** AZ-900 · MS-900 · AZ-104 *(in progress)* · SC-900 *(in progress)*
 **Networking:** Cisco Networking Essentials
-**AI/Automation:** Anthropic courses — Claude API · Claude Code · MCP · Agent Skills · Amazon Bedrock · AI Fluency
+**AI/Automation:** Anthropic courses — Claude API · Claude Code · Claude Code 101 · MCP · Agent Skills · Amazon Bedrock · AI Fluency
 
 ---
 
